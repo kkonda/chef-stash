@@ -154,7 +154,7 @@ default['stash']['database']['name']     = 'stash'
 default['stash']['database']['password'] = 'changeit'
 default['stash']['database']['port']     = 3306
 default['stash']['database']['testInterval'] = 2
-default['stash']['database']['type']     = 'mysql'
+default['stash']['database']['type']     = 'postgresql'
 default['stash']['database']['user']     = 'stash'
 
 default['stash']['jvm']['minimum_memory']  = '512m'
